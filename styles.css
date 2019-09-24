@@ -45,8 +45,6 @@ nav a:hover {
     flex-wrap: wrap;
 }
 
-
-
 /* Main column */
 .main {
     flex: 50%;
@@ -78,7 +76,7 @@ footer {
     background: #ddd;
 }
 
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+/* Responsive layout - when the screen is less than 768px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 768px) {
     .row, .navbar, .side {
         flex-direction: column;
@@ -122,4 +120,11 @@ footer {
 .fa-github{
     background: #333333;
     color: white;
+}
+
+/* Blog page image setting */
+img{
+    max-width: 240px;
+    max-height: 240px;
+    float: left;
 }
