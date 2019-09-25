@@ -19,18 +19,18 @@ header {
 /* Style the top navigation bar */
 nav {
     display: flex;
-    background-color: #333;
+    background-color: #1d1d1d;
     flex-direction: column;
 }
 
 /* Style the navigation bar links */
 nav a {
-    float: left !important;
+    float: left;
     color: white;
     text-decoration: none;
     text-align: center;
-    flex: 25%;
     padding: 20px;
+
 }
 
 /* Change color on hover */
@@ -47,6 +47,7 @@ nav a:hover {
 
 .row and nav{
     display: flex;
+    flex: 25%;
 }
 
 /* Main column */
@@ -56,8 +57,7 @@ nav a:hover {
     padding: 20px;
 }
 
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
+/* Sidebar right column */
 
 .side {
     float: right;
@@ -66,12 +66,6 @@ nav a:hover {
     padding: 20px;
 }
 
-/* Fake image, just for this example */
-.fakeimg {
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
-}
 
 /* Footer */
 footer {
@@ -140,4 +134,19 @@ p{
 
 h4{
     text-transform: uppercase;
+}
+
+.img-gallery{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    max-height: 200px;
+    max-width: 200px;
+    min-height: 80px;
+    min-width: 80px;
+}
+
+.img-gallery:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    cursor: pointer;
 }
