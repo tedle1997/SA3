@@ -45,6 +45,10 @@ nav a:hover {
     flex-wrap: wrap;
 }
 
+.row and nav{
+    display: flex;
+}
+
 /* Main column */
 .main {
     flex: 50%;
@@ -123,8 +127,17 @@ footer {
 }
 
 /* Blog page image setting */
-img{
+.img-blog{
     max-width: 240px;
     max-height: 240px;
     float: left;
+    margin-right: 15px;
+}
+
+p{
+    text-align: justify;
+}
+
+h4{
+    text-transform: uppercase;
 }
